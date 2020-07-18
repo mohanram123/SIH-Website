@@ -8,7 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+.link{
+  color: green;
+}
+.link:hover{
+  color:black;
+}
 .bgimg {
   height: 100%;
   background-position: center;
