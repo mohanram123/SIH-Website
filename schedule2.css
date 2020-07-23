@@ -59,6 +59,7 @@
     padding-left: 8px;
   }
   table thead tr {
+      text-align: center;
     height: 60px;
     background: #162447;
   }
@@ -109,7 +110,8 @@
   }
   
   .column1 {
-    width: 100px;
+    width: 40px;
+    padding: 3%;
     padding-left: 40px;
   }
   
@@ -118,7 +120,7 @@
   }
   
   .column3 {
-    width: 155px;
+    width: 100px;
   }
   
   .column4 {
@@ -127,7 +129,7 @@
   }
   
   .column5 {
-    width: 100px;
+    width: 330px;
     
   }
   
@@ -175,16 +177,16 @@
       content: "SI.NO";
     }
     table tbody tr td:nth-child(2):before {
-      content: "Ministry";
+      content: "Date";
     }
     table tbody tr td:nth-child(3):before {
-      content: "Code";
+      content: "Event";
     }
     table tbody tr td:nth-child(4):before {
-      content: "Problem Statement";
+      content: "Event Link";
     }
     table tbody tr td:nth-child(5):before {
-      content: "No.of Teams";
+      content: "Outcome";
     }
     
   
