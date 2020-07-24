@@ -745,6 +745,47 @@ section {
   color: #919191;
 }
 
+.section-title2 {
+  text-align: center;
+  
+}
+
+.section-title2 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title2 h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: green;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title2 h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: orange;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title2 p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #919191;
+}
 
 
 
@@ -1429,9 +1470,7 @@ section {
 .section-title1{
   padding-top: 11%;
 }
-.section-title2{
-  padding-top: 2%;
-}
+
 .team .member .social {
   margin-top: 15px;
 }
