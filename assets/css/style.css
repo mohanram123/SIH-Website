@@ -61,12 +61,13 @@
 }
 
 .newimgclass{
-  height: 100vh;
+  height: 90vh;
 }
 @media (max-width:912px)
 {
   .newimgclass{
-    height: 100%;
+    height: 90%;
+    width: 100%;
     padding-bottom: 5%;
   }
 }
