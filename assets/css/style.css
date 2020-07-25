@@ -184,13 +184,13 @@ h1, h2, h3, h4, h5, h6 {
 #topbar {
   background: #fff;
   color: white;
-  height: 10%;
+  height: 8%;
 
-  transition: all 0.7s;
+  transition: all 0.5s;
 }
 
 #topbar.topbar-scrolled {
-  top: -9%;
+  top: -8%;
 }
 
 #topbar .contact-info a {
@@ -1473,7 +1473,7 @@ section {
 }
 .newpad{
   
-  margin-top: 9%;
+  margin-top: 5%;
 }
 .team .member p {
   padding-top: 10px;
