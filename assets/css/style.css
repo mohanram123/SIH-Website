@@ -118,7 +118,10 @@ a {
   .imgclass{
   
     background-repeat: no-repeat;
-    background-image: url(lolo.png);
+    background-image: url(PicsArt_07-25-01.53.55.jpg);
+    width: 300%;
+    margin-left: -100%;
+    
   }
 }
 .imgclass2{
@@ -832,8 +835,10 @@ section {
   bottom: 0;
 }
 
+
 #hero1 .carousel-item::before {
   content: '';
+  
   background-color: rgba(27, 27, 47, 0.5);
 }
 
@@ -900,6 +905,10 @@ section {
 @media (max-width: 992px) {
   #hero1 .carousel-control-prev, #hero1 .carousel-control-next {
     top: 66px;
+  }
+  .carousel-item3{
+    margin-top: -10%;
+    
   }
 }
 
