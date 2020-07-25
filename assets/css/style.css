@@ -121,6 +121,20 @@ a {
     background-image: url(lolo.png);
   }
 }
+.imgclass2{
+  
+  background-repeat: no-repeat;
+  background-image: url(i1.jpg);
+  background-position: center;
+    background-size: cover;
+}
+@media (max-width:992px){
+  .imgclass2{
+  
+    background-repeat: no-repeat;
+    background-image: url(i3.jpg);
+  }
+}
 .ssn{
   font-family: 'Coustard';
 
