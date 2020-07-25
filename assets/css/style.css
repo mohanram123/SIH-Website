@@ -557,6 +557,10 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   background-color: rgba(27, 27, 47, 0.6);
 }
+#hero .carousel-item1::before {
+  content: '';
+  background-color: rgba(27, 27, 47, 0.2);
+}
 
 #hero .carousel-container {
   display: flex;
@@ -830,7 +834,7 @@ section {
 
 #hero1 .carousel-item::before {
   content: '';
-  background-color: rgba(27, 27, 47, 0.8);
+  background-color: rgba(27, 27, 47, 0.5);
 }
 
 #hero1 .carousel-container {
