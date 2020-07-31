@@ -1076,12 +1076,7 @@ section {
   overflow: hidden;
 }
 
-.why-us .content-item {
-  padding: 40px;
-  border-left: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  margin: -1px;
-}
+
 
 .why-us .content-item span {
   display: block;
@@ -1099,16 +1094,12 @@ section {
 
 .why-us .content-item p {
   color: #222222;
-  font-size: 15px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 768px) {
-  .why-us .content-item {
-    padding: 40px 0;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Our Clients
